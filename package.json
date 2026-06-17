@@ -1,0 +1,35 @@
+{
+  "name": "obs-studio-website",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "obs",
+    "streaming",
+    "recording",
+    "mobile",
+    "android"
+  ],
+  "author": "OBS Studio Mobile",
+  "license": "MIT",
+  "description": "Site oficial de download do OBS Studio Mobile para brasileiros",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "next": "^16.2.9",
+    "postcss": "^8.4.47",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.3",
+    "@types/react": "^19.1.17",
+    "@types/react-dom": "^19.1.5",
+    "typescript": "^5.9.3"
+  }
+}
