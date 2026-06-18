@@ -61,14 +61,15 @@ export default function Download() {
                   Baixe o arquivo APK e instale diretamente no seu celular
                 </p>
                 <a
-                  href="/obs-studio-mobile.apk"
-                  download
+                  href="https://github.com/kimonesanimajovemyt1-art/Obs-Studio-Mobile-Brasileiro/releases/tag/untagged-a5f6b188dd6f36c6d2df"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="gradient-button px-6 py-3 rounded-lg text-white font-semibold inline-block"
                 >
                   Baixar APK (v1.0.0)
                 </a>
                 <p className="text-sm text-slate-400 mt-4">
-                  Tamanho: ~45 MB | Versão: 1.0.0
+                  Tamanho: ~45-60 MB | Versão: 1.0.0 | GitHub Release
                 </p>
               </div>
 
@@ -124,6 +125,25 @@ export default function Download() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* GitHub Link */}
+            <div className="mt-12 bg-gradient-to-r from-slate-900/50 to-slate-800/50 border border-slate-700 rounded-lg p-8 mb-8">
+              <div className="flex items-center gap-4 mb-4">
+                <p className="text-3xl">🐙</p>
+                <h2 className="text-2xl font-bold gradient-text">Código Aberto no GitHub</h2>
+              </div>
+              <p className="text-slate-300 mb-4">
+                O código-fonte do OBS Studio Mobile está disponível no GitHub. Você pode contribuir, reportar bugs ou fazer fork do projeto!
+              </p>
+              <a
+                href="https://github.com/kimonesanimajovemyt1-art/Obs-Studio-Mobile-Brasileiro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-slate-700 hover:bg-slate-600 rounded-lg text-white font-semibold transition"
+              >
+                Ver no GitHub →
+              </a>
             </div>
 
             {/* Troubleshooting */}
